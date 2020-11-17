@@ -2,13 +2,12 @@ import express from 'express'
 import mongoose from 'mongoose'
 import Cards from './models/dbCards.js '
 import Cors from 'cors'
+import MONGODB from './config.js'
 
 
 // App Config
 const app = new express()
 const PORT = process.env.PORT || 8000
-
-const MONGODB = 'mongodb+srv://admin:user@cluster0.fr77y.mongodb.net/tinder-clone-db?retryWrites=true&w=majority'
 
 
 // Middlewares
