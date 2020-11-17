@@ -1,0 +1,10 @@
+GET http://localhost:8000/tinder/cards
+
+### 
+POST http://localhost:8000/tinder/cards HTTP/1.1
+content-type: application/json
+
+{
+ 	"name": "Elon Musk",
+	"imgUrl": "https://c.files.bbci.co.uk/5C64/production/_115525632_elonmusk.jpg"
+}
